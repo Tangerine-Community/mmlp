@@ -1,0 +1,8 @@
+{
+  "config_instructions" : "change the uppercase environment varaibles below to your specific configuration",
+  "env" : {
+    "default" : {
+      "db" : "http://$LOCAL_COUCHDB_USER:$LOCAL_COUCHDB_PASSWORD@localhost:5984/mmlp"
+    }
+  }
+}
