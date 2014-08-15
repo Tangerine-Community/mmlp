@@ -1,0 +1,11 @@
+{
+  "env" : {
+    "default" : {
+      "db" : "http://$LOCAL_COUCHDB_USER:$LOCAL_COUCHDB_PASSWORD@localhost:5984/mmlp"
+    },
+    "tablet" : {
+      "comments" : "This works after `adb forward tcp:8888 tcp:5984`",
+      "db" : "http://$LOCAL_COUCHDB_USER:$LOCAL_COUCHDB_PASSWORD@localhost:8888/mmlp"
+    }
+  }
+}
